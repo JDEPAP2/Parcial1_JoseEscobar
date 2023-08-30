@@ -12,7 +12,7 @@ const Componente2 = () => {
             }
         }
         setNum(0)
-        setRes(`Se deben pagar $${val}`)
+        setRes(`Se deben pagar $${val} pesos`)
         console.log(res)
     }
     return (

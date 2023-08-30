@@ -6,7 +6,7 @@ const Componente3 = () => {
     const [res, setRes] = useState()
 
     const saludar = ()=>{
-        var intro = (num === 24 || num < 12)?"Buenos Dias":((num<18)?"Buenas Tardes":"Buenas Noches");
+        var intro = (num >= 18 || num < 4)?"Buenos Noches":((num < 12)?"Buenos Días":"Buenas Tardes");
         if(num>24){
           setRes("Digite una hora valida")
         }else if(!name || name?.replace(" ", "").length === 0){
